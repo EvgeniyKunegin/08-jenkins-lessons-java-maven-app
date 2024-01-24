@@ -26,7 +26,7 @@ pipeline {
         stage("build image") {
             steps {
                 script {
-                    buildImage 'evgenk25/demo-app:jma-2.0'
+                    buildImage 'evgenk25/demo-app:jma-3.0'
                 }
             }
         }
